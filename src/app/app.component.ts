@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ltsys-fe';
+
+  saudacao(){
+    console.log('Seja Bem Vindo');
+  }
+  ngOnInit(): void {
+    this.saudacao();
+  }
 }
