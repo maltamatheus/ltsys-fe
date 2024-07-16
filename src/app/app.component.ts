@@ -6,12 +6,5 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'ltsys-fe';
 
-  saudacao(){
-    console.log('Seja Bem Vindo');
-  }
-  ngOnInit(): void {
-    this.saudacao();
-  }
 }
