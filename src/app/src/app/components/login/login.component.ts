@@ -13,6 +13,7 @@ export class LoginComponent {
 
   i1 = 10
   i2 = 'asd234356'
+  endereco = '/home'
 
   descobreTipo(tipo: any){
     console.log(typeof tipo)
@@ -41,6 +42,14 @@ export class LoginComponent {
     //   numero = numero + 0.1;
     //   console.log(numero)
     // }
+  }
+
+  logar(){
+    console.log('Antes - ', this.endereco)
+    if(true){
+      this.endereco = '/login'
+    }
+    console.log('Depois - ', this.endereco)
   }
 
 }

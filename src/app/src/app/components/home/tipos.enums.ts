@@ -1,0 +1,4 @@
+export enum tipoCompensacao{
+  BOLETO_QUITACAO = 'BOLETO DE QUITAÇÃO',
+  BOLETO_NEGOCIACAO = 'BOLETO DE NEGOCIAÇÃO'
+}
