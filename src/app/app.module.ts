@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { MatCardModule } from '@angular/material/card'
@@ -12,6 +11,7 @@ import {MatDividerModule} from '@angular/material/divider';
 import { LoginComponent } from './src/app/components/login/login.component';
 import { HomeComponent } from './src/app/components/home/home.component';
 import { CursosComponent } from './src/app/components/cursos/cursos.component';
+import { RotasAplicacao } from './app.routing';
 
 @NgModule({
   declarations: [
@@ -21,8 +21,8 @@ import { CursosComponent } from './src/app/components/cursos/cursos.component';
     HomeComponent,
   ],
   imports: [
+    RotasAplicacao,
     BrowserModule,
-    AppRoutingModule,
     MatCardModule,
     MatTabGroup,
     MatTab,
